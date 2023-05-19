@@ -22,6 +22,10 @@
   color: white;
   padding: 5px 5px;
 }
+#navbar-1 li a:hover {
+  text-decoration: underline;
+
+}
 
 /* Navbar-2 */
 #navbar-2 {
@@ -44,6 +48,10 @@
   text-decoration: none;
   color: black;
   padding: 5px 5px;
+}
+#navbar-2 li a:hover {
+  text-decoration: underline;
+  color: #e6375f;
 }
 
 /* Banner */
@@ -75,6 +83,7 @@
 }
 #selection .box {
   margin: 20px;
+  cursor: pointer;
 }
 
 /* Short-Section */
@@ -94,6 +103,7 @@
   border: 1px solid white;
   background-color: #e72d65;
   color: white;
+  cursor:pointer;
 }
 
 /* section-Services */
@@ -112,6 +122,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 #services .box {
   width: 230px;
@@ -180,6 +191,9 @@
   margin-bottom: 0px;
   color: #e6375f;
 }
+#Connect .right-text img:hover {
+cursor: pointer;
+}
 
 /* Section-Information */
 #information {
@@ -226,6 +240,9 @@
   color: white;
   font-size: 15px;
   margin: 20px 10px;
+}
+#working button:hover {
+ cursor: pointer;
 }
 #working ul {
   list-style-image: url("./icons8-heart-12.png");
