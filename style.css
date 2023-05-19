@@ -290,6 +290,12 @@ margin-top: 30px;
 }
 .footer-1 ul li {
  padding-bottom: 10px;
+
+}
+.footer-1 ul li:hover {
+ padding-bottom: 10px;
+ text-decoration: underline;
+ cursor: pointer;
 }
 
 .footer-1 ul li::before {
@@ -395,6 +401,7 @@ color: white;
 p {
   color: #434343;
   margin-bottom: 50px;
+  font-size: 16px;
 }
 
 :root {
