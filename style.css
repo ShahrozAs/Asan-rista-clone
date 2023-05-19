@@ -24,7 +24,7 @@
 
 /* Navbar-2 */
 #navbar-2{
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -102,6 +102,7 @@ width: 100%;
 #services .main-card{
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
 #services .cards{
     display: flex;
@@ -117,7 +118,7 @@ width: 100%;
 }
 #services .box{
 width: 230px;
-height: 230px;
+height: 220px;
 background-color:white;
 margin: 20px 20px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -135,6 +136,98 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: #e6375f;
 }
 
+/* section-Connect */
+#Connect{
+
+  height: 400px;
+  background-image: repeating-linear-gradient(45deg,#f7f7f7,transparent 15px);
+  margin-bottom: 60px;
+}
+#Connect .main-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Connect .left-image img{
+
+  margin: 50px auto;
+  height: 320px;
+}
+#Connect h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  color: #434343;
+}
+#Connect h1{
+  color: #e6375f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  text-align: left;
+  font-size: 50px;
+}
+#Connect h2{
+  font-size: 21px;
+  font-weight: 300;
+  color: #434343;
+}
+#Connect p{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #434343;
+}
+#Connect span{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  color: #e6375f;
+}
+
+
+/* Section-Information */
+#information{
+  height: 400px;
+}
+#information .main-card{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+#information .box{
+width: 20%;
+margin: 20px 20px;
+
+}
+#information p{
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 0px;
+}
+
+/* Section-Working */
+#working{
+  
+}
+#working{
+  
+}
+#working{
+  
+}
+#working{
+  
+}
+#working{
+  
+}
+#working{
+  
+}
 /* Utility Classes */
 .primary-heading-text {
     font-size: 2rem;
@@ -143,10 +236,15 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: #e6375f;
     text-transform: uppercase;
 }
+.primary2-heading-text {
+    font-size: 1.9rem;
+    font-weight: 530; 
+    color: #e6375f;
+   
+}
 .secondary-heading-text {
     font-size: 2rem;
     font-weight: 700;
-
     color: #434343;
     margin-bottom: 20px;
 }
@@ -156,4 +254,10 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 p{
     color: #434343;
     margin-bottom: 50px;
+}
+
+
+:root{
+  --var-color:#e6375f;
+  --var-background-color:#e6375f;
 }
